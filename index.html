@@ -28,7 +28,11 @@
             padding: 20px;
             text-align: center;
         }
-
+        .coupang img {
+            max-width: 768px; /* 페이지 최대 폭을 768px로 제한 */
+            margin: 0 auto; /* 수평 가운데 정렬 */
+        }
+        
         .section {
             padding: 40px 20px;
             text-align: center;
@@ -134,7 +138,7 @@
 
         @media (max-width: 768px) {
             button {
-                width: 50%;  /* 모바일에서는 버튼을 화면의 90% 너비로 설정 */
+                width: 50%;  /* 모바일에서는 버튼을 화면의 50% 너비로 설정 */
                 padding: 10px;  /* 적절한 패딩 추가 */
             }
         }
@@ -185,8 +189,8 @@
             </div>
         </div>
         <hr>
-        <div class="section">
-            <img src="0.png" alt="사진 0">
+        <div class="coupang">
+            <img src="0.png" alt="사진 0"><br>
             <script src="https://ads-partners.coupang.com/g.js"></script>
                 <script>
                     new PartnersCoupang.G({"id":834661,"template":"carousel","trackingCode":"AF2193355","width":"680","height":"140","tsource":""});
